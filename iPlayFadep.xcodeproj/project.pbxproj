@@ -12,6 +12,12 @@
 		FB1273AE216939C000CD5843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1273AC216939C000CD5843 /* Main.storyboard */; };
 		FB1273B0216939C300CD5843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1273AF216939C300CD5843 /* Assets.xcassets */; };
 		FB1273B3216939C300CD5843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1273B1216939C300CD5843 /* LaunchScreen.storyboard */; };
+		FB1273BB21693B7F00CD5843 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1273BA21693B7F00CD5843 /* PersistenceManager.swift */; };
+		FB1273BD21693BC000CD5843 /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1273BC21693BC000CD5843 /* ViewControllerLogin.swift */; };
+		FB1273BF21693E5D00CD5843 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1273BE21693E5D00CD5843 /* ViewControllerHome.swift */; };
+		FB1273C12169415900CD5843 /* CelulaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1273C02169415900CD5843 /* CelulaController.swift */; };
+		FB1273C3216948BD00CD5843 /* ViewControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1273C2216948BD00CD5843 /* ViewControllerDetail.swift */; };
+		FB1273C521694C5100CD5843 /* ViewControllerSobre.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1273C421694C5100CD5843 /* ViewControllerSobre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		FB1273AF216939C300CD5843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1273B2216939C300CD5843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB1273B4216939C300CD5843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1273BA21693B7F00CD5843 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		FB1273BC21693BC000CD5843 /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		FB1273BE21693E5D00CD5843 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
+		FB1273C02169415900CD5843 /* CelulaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaController.swift; sourceTree = "<group>"; };
+		FB1273C2216948BD00CD5843 /* ViewControllerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetail.swift; sourceTree = "<group>"; };
+		FB1273C421694C5100CD5843 /* ViewControllerSobre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSobre.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				FB1273AF216939C300CD5843 /* Assets.xcassets */,
 				FB1273B1216939C300CD5843 /* LaunchScreen.storyboard */,
 				FB1273B4216939C300CD5843 /* Info.plist */,
+				FB1273BA21693B7F00CD5843 /* PersistenceManager.swift */,
+				FB1273BC21693BC000CD5843 /* ViewControllerLogin.swift */,
+				FB1273BE21693E5D00CD5843 /* ViewControllerHome.swift */,
+				FB1273C02169415900CD5843 /* CelulaController.swift */,
+				FB1273C2216948BD00CD5843 /* ViewControllerDetail.swift */,
+				FB1273C421694C5100CD5843 /* ViewControllerSobre.swift */,
 			);
 			path = iPlayFadep;
 			sourceTree = "<group>";
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1273BD21693BC000CD5843 /* ViewControllerLogin.swift in Sources */,
+				FB1273C3216948BD00CD5843 /* ViewControllerDetail.swift in Sources */,
+				FB1273BB21693B7F00CD5843 /* PersistenceManager.swift in Sources */,
 				FB1273AB216939C000CD5843 /* ViewController.swift in Sources */,
 				FB1273A9216939C000CD5843 /* AppDelegate.swift in Sources */,
+				FB1273BF21693E5D00CD5843 /* ViewControllerHome.swift in Sources */,
+				FB1273C521694C5100CD5843 /* ViewControllerSobre.swift in Sources */,
+				FB1273C12169415900CD5843 /* CelulaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
